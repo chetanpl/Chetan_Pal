@@ -1,0 +1,150 @@
+import React, { useRef } from "react";
+import { useDarkMode } from "../hooks/useDarkMode";
+import SectionHeading from "./SectionHeading";
+
+const Contact = () => {
+  const { theme } = useDarkMode();
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const subjectRef = useRef();
+  const messageRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const name = nameRef.current.value;
+    const email = emailRef.current.value;
+    const subject = subjectRef.current.value;
+    const message = messageRef.current.value;
+
+    const mailtoLink = `mailto:predatorbhai13@gmail.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Hi, I am ${name} (${email})\n\n${message}`
+    )}`;
+
+    window.location.href = mailtoLink;
+  };
+
+  return (
+    <section id="contact" className={`pb-20 ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}>
+      {/* Section Title */}
+      <SectionHeading text="Contact Me" />
+
+      {/* Main Container */}
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+        {/* Left Side */}
+        <div className="space-y-8">
+          <h1 className="text-3xl font-bold">Let's discuss your Project...</h1>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="flex flex-col items-center text-center">
+              <i className="fa-solid fa-user text-[var(--primary)]  text-4xl opacity-80 mb-2" />
+              <h2 className="text-lg font-semibold">Name</h2>
+              <p>Chetan Pal</p>
+            </div>
+
+            <a href="tel:+9779822301799" className="flex flex-col items-center text-center">
+              <i className="fa-solid fa-phone text-[var(--primary)]  text-4xl opacity-80 mb-2" />
+              <h2 className="text-lg font-semibold">Call at</h2>
+              <p>+44-7776819062</p>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=447776819062" className="flex flex-col items-center text-center" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-whatsapp text-[var(--primary)]  text-4xl opacity-80 mb-2" />
+              <h2 className="text-lg font-semibold">Message me</h2>
+              <p>on Whatsapp</p>
+            </a>
+            <a href="mailto:predatorbhai13@gmail.com" className="flex flex-col items-center text-center" target="_blank" rel="noopener noreferrer">
+              <i className="fa-regular fa-envelope text-[var(--primary)]  text-4xl opacity-80 mb-2" />
+              <h2 className="text-lg font-semibold">Mail at</h2>
+              <p>chetanpl@gmail.com</p>
+            </a>
+
+            {/* <a href="https://maps.app.goo.gl/HVPyAz9RAcJAHYi7A" className="flex flex-col items-center text-center" target="_blank" rel="noopener noreferrer">
+              <i className="fa-regular fa-location-dot text-[var(--primary)]  text-4xl opacity-80 mb-2" />
+              <h2 className="text-lg font-semibold">Visit at</h2>
+              <p>My office, Tokha</p>
+            </a> */}
+
+            {/* Social Links */}
+            {/* <div className="flex flex-col items-center justify-center text-center">
+              <h2 className="text-lg font-semibold">Social Profiles</h2>
+              <div className="flex justify-center space-x-8 text-3xl">
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                >
+                  <i className="fa-brands fa-facebook" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/chetanpl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80"
+                >
+                  <i className="fa-brands fa-linkedin" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/chetanpl"
+                  className="hover:opacity-80"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div> */}
+          </div>
+        </div>
+
+        {/* Right Side - Form */}
+        <div className="space-y-6">
+          <p className="text-xl">
+            I'm always open to discuss about product{" "}
+            <span className="font-bold block">designs work or partnerships.</span>
+          </p>
+
+          <form className="space-y-4" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="Name"
+              ref={nameRef}
+              required
+              className={`w-full p-4 bg-[#a598f341] rounded outline-none ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              ref={emailRef}
+              required
+              className={`w-full p-4 bg-[#a598f341] rounded outline-none ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              ref={subjectRef}
+              required
+              className={`w-full p-4 bg-[#a598f341] rounded outline-none ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}
+            />
+            <textarea
+              placeholder="Message"
+              rows="6"
+              ref={messageRef}
+              required
+              className={`w-full p-4 bg-[#a598f341] rounded outline-none ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}
+            />
+            <button
+              type="submit"
+              className="bg-[var(--primary)] text-white px-6 py-3 rounded shadow-md hover:opacity-80 transition-all"
+            >
+              Send Message <i className="fa-solid fa-paper-plane ml-2" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
