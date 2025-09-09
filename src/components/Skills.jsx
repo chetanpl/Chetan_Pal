@@ -14,7 +14,6 @@ const Skills = () => {
     { name: "jQuery", level: "50%" },
     { name: "React", level: "80%" },
     { name: "Tailwind", level: "70%" },
-    { name: "Shopify Theme", level: "60%" },
     { name: "MySql", level: "50%" },
     { name: "Express", level: "60%" },
     { name: "nodeJS", level: "60%" },
@@ -62,7 +61,7 @@ const Skills = () => {
         <div className="text-xl mb-12" data-aos="fade-up">
           <h1 className={`text-2xl font-bold mb-2 ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}>Education & Skills</h1>
           <p className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>
-            For more than 5 year, have been accomplishing enough with modern Web Development, (React, HTML, CSS, JavaScript, React, Tailwind, Shopify Theme, MySql, Express, nodeJS, MySQL new generation web and app programming language.
+            For more than 5 year, have been accomplishing enough with modern Web Development, (React, HTML, CSS, JavaScript, React, Tailwind, MySql, Express, nodeJS, MySQL new generation web and app programming language.
           </p>
         </div>
 

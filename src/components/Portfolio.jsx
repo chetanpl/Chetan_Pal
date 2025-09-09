@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 1,
       slug: "Sky UK’s broadband product platform",
-      title: "Shopify Theme Engineer (Senior Frontend Developer)",
+      title: "React Developer Engineer (Senior Frontend Developer)",
       images: [
         "/img/dubedoostab.jpg",
         "/img/dubedoos.jpg",

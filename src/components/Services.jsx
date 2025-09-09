@@ -3,11 +3,11 @@ import { useDarkMode } from "../hooks/useDarkMode";
 import SectionHeading from "./SectionHeading";
 
 const services = [
-  {
-    icon: "fa-laptop-code",
-    title: "Shopify Theme Development",
-    desc: "I will design your website."
-  },
+  // {
+  //   icon: "fa-laptop-code",
+  //   title: "Shopify Theme Development",
+  //   desc: "I will design your website."
+  // },
   {
     icon: "fa-solid fa-code",
     title: "ReactJS Frontend Engineering",
