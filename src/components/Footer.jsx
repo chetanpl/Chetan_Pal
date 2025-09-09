@@ -58,7 +58,7 @@ const Footer = () => {
 
       {/* Footer Notice */}
       <div className="text-center text-sm text-white">
-        &copy; 2025 <a href="/">PrasadBhai</a> | All rights reserved !
+        &copy; 2025 <a href="/">Chetan Pal</a> | All rights reserved !
       </div>
     </footer>
   );
