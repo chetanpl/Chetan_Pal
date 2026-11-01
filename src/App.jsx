@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={
           <>
             <Nav />
-            <Hero />
+            {/* <Hero /> */}
             <About />
             <Skills />
             <Services/>
