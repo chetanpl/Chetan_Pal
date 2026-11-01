@@ -8,65 +8,77 @@ const Portfolio = () => {
 
   const projects = [
     {
-      id: 0,
-      slug: "edf energy produce electricity",
-      title: "Senior Frontend Engineer - Shopify Theme",
-      images: [
-        "/img/edfEnergy.jpg",
-        "/img/edfEnergy1.jpg",
-        "/img/edfEnergy.jpg"
-      ],
-      tech: ["React (Vite 19.1)", "TypeScript", "JavaScript", "Redux (Thunk, Saga)", "TanStack Query", "GraphQL", "AG Grid", "Jest", "React Testing Library", "Cypress", "Docker", "Kubernetes (basic)", "Jenkins", "AWS", "Figma", "Content-Stack CMS"],
-      description:
-        "Worked on EDF Energy’s nuclear waste lifecycle management system, monitoring collection, processing, packaging, and consignment. The platform ensures environmentally safe disposal, regulatory compliance, and operational efficiency",
-    },
-    {
-      id: 1,
-      slug: "Sky UK’s broadband product platform",
-      title: "React Developer Engineer (Senior Frontend Developer)",
-      images: [
-        "/img/dubedoostab.jpg",
-        "/img/dubedoos.jpg",
-        "/img/hero (1).png",
-        "/img/hero (2).png"
-      ],
-      link: "https://www.sky.com/broadband",
-      tech: ["ReactJS 18", "TypeScript", "JavaScript", "Redux (Thunk, Saga)", "Jest", "Cypress", "GraphQL", "Content Stack CMS", "Optimizely", "React Testing Library", "Octopus"],
-      description:
-        "Worked on Sky UK’s broadband product platform to deliver responsive, customer-facing web pages that supported broadband sales and personalization journeys. The platform integrated with CMS systems (ContentStack, Optimizely) to enable marketing teams to run A/B tests and rapidly launch new campaigns. The project focused on improving user experience, increasing conversion rates, and reducing time-to-market for new product features. The platform was implemented using microfrontend architecture to allow independent development, testing, and deployment of multiple modules.",
-    },
-    {
-      id: 2,
-      slug: "Marina Bay Sands Resourt",
-      title: "Senior Software Developer",
-      images: [
-        "/img/momentum.jpg",
-        "/img/hero (4).png",
-      ],
-      link: "https://www.marinabaysands.com/restaurants/rooftop-dining.html",
-      tech: ["React","ReactJS", "Angular", "TypeScript", "ContentStack CMS", "Jest","GCP"],
-      description:
-        " Marina Bay Sands offers a comprehensive loyalty program through its Sands LifeStyle membership, allowing members to earn and redeem Resort Dollars across various outlets within the resort. ",
-      // blog: {
-      //   title: "From Zero to Full-Stack: Building Momentum with Appwrite",
-      //   content: "A comprehensive guide to building a full-stack fitness tracking application...",
-      //   date: "2024-02-20",
-      //   readTime: "8 min read"
-      // }
-    },
-    {
-      id: 3,
-      title: "Associate UI Consultant",
-      images: [
-        "/img/multifamily.png",
-        "/img/multifamily1.png",
-        "/img/multifamily1.png"
-      ],
-      link:"https://www.verkada.com/uk/solutions/multifamily/#overview",
-      tech: ["C#", "ASP.NET MVC", "Angular", "TypeScript", "SQL Server", "Web API"],
-      description:
-        "Worked on multi-family projects focused on security and operational management for residential and corporate buildings. The system handles tasks such as camera recording, guest entry via entry passes, and facial recognition, accurately logging entry and exit times. This project serves as a comprehensive security and management tool for apartment complexes and corporate facilities."
-    }
+  id: 4,
+  slug: "COS fashion (H&M)",
+  title: "Senior Full Stack Developer (Next.js)",
+  images: [
+    // add your COS image paths here, for example "/img/cos.jpg"
+  ],
+  link: "https://www.cos.com/en-gb",
+  tech: ["React", "Next.js", "TypeScript", "JavaScript", "Redux Toolkit", "GraphQL", "REST APIs", "Node.js", "Socket.IO", "WebSockets", "MongoDB", "SCSS", "Jest", "React Testing Library", "OpenAI", "Vercel AI SDK"],
+  description:
+    "Worked on COS Fashion's large B2C platform for mobile and desktop, part of H&M Group. Built features with React, Next.js and TypeScript, integrating REST and GraphQL APIs and managing state with Redux Toolkit. Built real-time low-stock alerts with Socket.IO and WebSockets, pushed from the server to logged-in users on their wishlist page, and an AI-powered search tool with OpenAI and Vercel for H&M warehouse staff to search stock and colour availability by product category. Cut page load time by about 30%, raised the Lighthouse Performance score from 62 to 88 and reduced JavaScript bundle size by 20–40%."
+},
+{
+  id: 0,
+  slug: "edf energy produce electricity",
+  title: "Senior Full Stack Developer",
+  images: [
+    "/img/edfEnergy.jpg",
+    "/img/edfEnergy1.jpg",
+    "/img/edfEnergy.jpg"
+  ],
+  tech: ["React", "TypeScript", "JavaScript", "Node.js", "Python", "AG Grid", "styled-components", "Google Charts", "AWS Lambda", "PostgreSQL", "SQL"],
+  description:
+    "Worked on EDF Energy's nuclear waste management system, which follows each package from collection and processing to packaging, consignment and secure storage. Built a waste tracking system with QR code scanning and label printing on mobile, tablet and desktop to replace a manual, error-prone process used by plant engineers, and owned it from requirements through testing and release. The platform supports environmentally safe disposal, regulatory compliance and operational efficiency. Also worked on upgrading a website from React 15 to React 19 and a Node.js REST API on AWS Lambda from Node.js 16 to Node.js 22, and developed a daily consumption and 15-day demand report for 17 generation sites."
+},
+{
+  id: 1,
+  slug: "Sky UK’s broadband product platform",
+  title: "Senior Frontend Developer",
+  images: [
+    "/img/dubedoostab.jpg",
+    "/img/dubedoos.jpg",
+    "/img/hero (1).png",
+    "/img/hero (2).png"
+  ],
+  link: "https://www.sky.com/broadband",
+  tech: ["ReactJS 18", "TypeScript", "JavaScript", "Redux (Thunk, Saga)", "Jest", "Cypress", "GraphQL", "Content Stack CMS", "Optimizely", "React Testing Library", "Octopus"],
+  description:
+    "Worked on Sky UK's broadband product platform, building responsive, customer-facing web pages (Glass, WiFi and TV) that supported broadband sales and personalised journeys. The platform integrated with ContentStack CMS and Optimizely so marketing teams could run A/B tests and launch new campaigns quickly. Also worked as a business analyst alongside development, gathering and analysing requirements with stakeholders. The platform used a microfrontend architecture, so modules could be developed, tested and deployed independently."
+},
+{
+  id: 2,
+  slug: "Marina Bay Sands Resourt",
+  title: "Senior Software Developer",
+  images: [
+    "/img/momentum.jpg",
+    "/img/hero (4).png",
+  ],
+  link: "https://www.marinabaysands.com/restaurants/rooftop-dining.html",
+  tech: ["React", "Redux", "TypeScript", "JavaScript", "JWT", "Jenkins"],
+  description:
+    "Built customer-facing loyalty and rewards applications for Marina Bay Sands' Sands LifeStyle membership, where members earn and redeem Resort Dollars across outlets in the resort. Developed an event-driven loyalty engine powering real-time reward distribution across casino kiosks, and reduced DOM re-renders by about 25% by optimising components and refactoring the front end.",
+  // blog: {
+  //   title: "From Zero to Full-Stack: Building Momentum with Appwrite",
+  //   content: "A comprehensive guide to building a full-stack fitness tracking application...",
+  //   date: "2024-02-20",
+  //   readTime: "8 min read"
+  // }
+},
+{
+  id: 3,
+  title: "Associate Consultant",
+  images: [
+    "/img/multifamily.png",
+    "/img/multifamily1.png",
+    "/img/multifamily1.png"
+  ],
+  link: "https://www.verkada.com/uk/solutions/multifamily/#overview",
+  tech: ["C#", "ASP.NET MVC", "Web API", "SQL Server"],
+  description:
+    "Worked on multi-family projects focused on security and operational management for residential and commercial buildings. The system handles camera recording, guest entry through entry passes, face detection and ID card scanning, and logs entry and exit times accurately. It serves as a complete security and management tool for apartment complexes and corporate facilities."
+}
   ];
 
   useEffect(() => {
