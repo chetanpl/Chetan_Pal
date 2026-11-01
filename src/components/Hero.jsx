@@ -127,7 +127,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="home" className=" pt-20 md:pt-44 h-screen relative overflow-hidden">
+     {/*   <section id="home" className=" pt-20 md:pt-44 h-screen relative overflow-hidden">
         {/* Floating Bubbles */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="floating-bubble bubble-1"></div>
@@ -139,7 +139,7 @@ const Hero = () => {
           <div className="floating-bubble bubble-7"></div>
           <div className="floating-bubble bubble-8"></div>
         </div>
-        <div className="max-w-[110rem] md:px-10 mx-auto flex flex-col-reverse md:flex-row items-center md:justify-between justify-center h-full relative z-10">
+       <div className="max-w-[110rem] md:px-10 mx-auto flex flex-col-reverse md:flex-row items-center md:justify-between justify-center h-full relative z-10">
           {/* Social Icons */}
           <div className=" hidden md:flex flex-col gap-6 text-[2.5rem]  md:w-28 justify-center  items-center ">
             <a target="_blank" href="https://api.whatsapp.com/send?phone=447776819062"><i
@@ -150,7 +150,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Text */}
-         {/* <div className="flex flex-col justify-center items-start w-full md:w-[45%] space-y-4 px-10" data-aos="fade-up">
+         <div className="flex flex-col justify-center items-start w-full md:w-[45%] space-y-4 px-10" data-aos="fade-up">
             <p className="text-[2rem] lg:text-[2.5rem] font-semibold" style={{color: 'var(--black8)'}}>Hi, I am Chetan Pal</p>
             <p className="text-5xl sm:text-6xl  font-bold tracking-wide" style={{color: 'var(--blackmain)'}}>
               Senior Frontend developer / Full Stack Developer.
@@ -214,7 +214,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
