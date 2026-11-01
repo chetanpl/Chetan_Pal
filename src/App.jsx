@@ -26,7 +26,6 @@ function App() {
             <Skills />
             <Services/>
             <Portfolio />
-            <LetsTalk />
             <Clients />
             <Contact />
             <Footer />
