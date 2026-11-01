@@ -12,10 +12,10 @@ const Portfolio = () => {
   slug: "COS fashion (H&M)",
   title: "Senior Full Stack Developer (Next.js)",
   images: [
-    "/img/image.png",
-    "/img/image.png",
-     "/img/image.png",
-     "/img/image.png",
+    "/img/img.png",
+    "/img/wishlist.png",
+     "/img/basket.png",
+     "/img/pdpSizeSelector.png",
     // add your COS image paths here, for example "/img/cos.jpg"
   ],
   link: "https://www.cos.com/en-gb",
