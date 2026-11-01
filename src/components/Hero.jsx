@@ -202,8 +202,8 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div> */}
+          </div>*/}
+        </div> 
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
