@@ -12,11 +12,10 @@ const Portfolio = () => {
   slug: "COS fashion (H&M)",
   title: "Senior Full Stack Developer (Next.js)",
   images: [
-    "/img/img.png",
-    "/img/wishlist.png",
-     "/img/basket.png",
-     "/img/pdpSizeSelector.png",
-    // add your COS image paths here, for example "/img/cos.jpg"
+  "/img/basket.png",
+  "/img/wishlist.png",
+  "/img/pdpSizeSelector.png",
+  "/img/image.png",
   ],
   link: "https://www.cos.com/en-gb",
   tech: ["React", "Next.js", "TypeScript", "JavaScript", "Redux Toolkit", "GraphQL", "REST APIs", "Node.js", "Socket.IO", "WebSockets", "MongoDB", "SCSS", "Jest", "React Testing Library", "OpenAI", "Vercel AI SDK"],
