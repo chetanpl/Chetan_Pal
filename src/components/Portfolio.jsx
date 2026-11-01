@@ -8,7 +8,7 @@ const Portfolio = () => {
 
   const projects = [
   {
-    id: 4,
+    id: 0,
     slug: "COS fashion (H&M)",
     title: "Senior Full Stack Developer (Next.js)",
     images: [
@@ -40,7 +40,7 @@ const Portfolio = () => {
       "Built and maintained COS Fashion's large B2C platform (H&M Group) for mobile and desktop, plus an AI search tool for H&M warehouse staff. Built features with React, Next.js and TypeScript, integrating REST and GraphQL APIs and managing state with Redux Toolkit. Built a real-time stock notification feature with WebSockets that pushes alerts to the user's wishlist page when items run low, and an AI-powered search tool with OpenAI and Vercel that lets warehouse staff search stock and colour availability by product category. Cut page load time by about 30%, raised the Lighthouse Performance score from 62 to 88 and reduced JavaScript bundle size by 20–40%. Wrote Jest and React Testing Library tests and took part in code reviews so changes shipped safely through CI/CD.",
   },
   {
-    id: 0,
+    id: 1,
     slug: "edf energy produce electricity",
     title: "Senior Full Stack Developer",
     images: [
@@ -60,7 +60,7 @@ const Portfolio = () => {
       "Built a nuclear waste tracking system for EDF Energy (Nuclear) to replace a manual, error-prone process used by plant engineers. It has a QR code scanner UI that runs on mobile, tablet and desktop and maps every package step by step, from pick to secure storage. Built the scan and label print features, so one printed label carries all the details of a package, and owned the work from requirements through testing and release. Also upgraded a website from React 15 to React 19, and upgraded and developed a daily consumption and 15-day demand report for 17 generation sites, with a React front end using styled-components and Google Charts.",
   },
   {
-    id: 1,
+    id: 2,
     slug: "Sky UK's broadband product platform",
     title: "Senior Frontend Developer",
     images: [
@@ -75,7 +75,7 @@ const Portfolio = () => {
       "Built components for Sky's customer-facing broadband website (Glass, WiFi and TV pages) with React, TypeScript and JavaScript, consuming REST and GraphQL APIs. Optimised performance and fixed rendering issues on these pages. Also worked as a business analyst alongside development, gathering and analysing requirements with stakeholders.",
   },
   {
-    id: 2,
+    id: 3,
     slug: "Marina Bay Sands Resort",
     title: "Senior Software Developer",
     images: ["/img/momentum.jpg", "/img/hero (4).png"],
@@ -85,7 +85,7 @@ const Portfolio = () => {
       "Built customer-facing B2C loyalty and rewards applications for Marina Bay Sands with React, Redux and TypeScript, used by thousands of customers every day. Reduced DOM re-renders by about 25% by optimising components and refactoring the front end.",
   },
   {
-    id: 3,
+    id: 4,
     slug: "GlobalLogic building security and automation",
     title: "Software Engineer",
     images: [
