@@ -150,7 +150,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Text */}
-          <div className="flex flex-col justify-center items-start w-full md:w-[45%] space-y-4 px-10" data-aos="fade-up">
+         {/* <div className="flex flex-col justify-center items-start w-full md:w-[45%] space-y-4 px-10" data-aos="fade-up">
             <p className="text-[2rem] lg:text-[2.5rem] font-semibold" style={{color: 'var(--black8)'}}>Hi, I am Chetan Pal</p>
             <p className="text-5xl sm:text-6xl  font-bold tracking-wide" style={{color: 'var(--blackmain)'}}>
               Senior Frontend developer / Full Stack Developer.
@@ -171,7 +171,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-
+*/}
           {/* Hero Image */}
           {/* <div className="grid place-content-center mb-15   w-[90%] md:w-[45%]" data-aos="fade-up">
             <div className="slider" id="slider">
