@@ -127,7 +127,7 @@ const Hero = () => {
 
   return (
     <>
-     {/*   <section id="home" className=" pt-20 md:pt-44 h-screen relative overflow-hidden">
+       <section id="home" className=" pt-20 md:pt-44 h-screen relative overflow-hidden">
         {/* Floating Bubbles */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="floating-bubble bubble-1"></div>
@@ -214,7 +214,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </section> */}
+      </section> 
     </>
   );
 };
