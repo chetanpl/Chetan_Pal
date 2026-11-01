@@ -155,9 +155,6 @@ const Hero = () => {
             <p className="text-5xl sm:text-6xl  font-bold tracking-wide" style={{color: 'var(--blackmain)'}}>
               Senior Frontend developer / Full Stack Developer.
             </p>
-            <p className="text-[2rem] lg:text-[2.5rem]  font-semibold" style={{color: 'var(--black8)'}}>
-              is here!!
-            </p>
             <p className="text-[1.3rem] text-justify max-w-[80%]" style={{color: 'var(--black7)'}}>
              I’m a senior full stack engineer with 10+ years of experience building and maintaining responsive web applications in telecom, energy, e-commerce, hospitality and insurance. I work mainly with React, TypeScript, Next.js and Node.js, and I build REST and GraphQL integrations, real-time features with WebSockets, and AI-powered features with OpenAI and the Vercel AI SDK. I take ownership of my work from development to production release, and I care about performance, accessibility and usability. I also enjoy the design side of frontend work, and I have working knowledge of Figma, Adobe Photoshop and Illustrator, with experience in wireframing and prototyping.
             </p>
