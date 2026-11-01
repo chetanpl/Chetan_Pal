@@ -173,7 +173,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="grid place-content-center mb-15   w-[90%] md:w-[45%]" data-aos="fade-up">
+        <!--  <div className="grid place-content-center mb-15   w-[90%] md:w-[45%]" data-aos="fade-up">
             <div className="slider" id="slider">
               <div className="slider-box  overflow-x-hidden  rounded-xl  shadow-lg  ">
                 <div
@@ -203,7 +203,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
