@@ -159,7 +159,7 @@ const Hero = () => {
               is here!!
             </p>
             <p className="text-[1.3rem] text-justify max-w-[80%]" style={{color: 'var(--black7)'}}>
-             I design and build fast, scalable, and user-friendly web apps that help businesses shine online. With 8+ years of experience, I turn complex requirements into intuitive digital experiences using modern frontend architectures and microfrontend strategies.
+             I’m a senior full stack engineer with 10+ years of experience building and maintaining responsive web applications in telecom, energy, e-commerce, hospitality and insurance. I work mainly with React, TypeScript, Next.js and Node.js, and I build REST and GraphQL integrations, real-time features with WebSockets, and AI-powered features with OpenAI and the Vercel AI SDK. I take ownership of my work from development to production release, and I care about performance, accessibility and usability. I also enjoy the design side of frontend work, and I have working knowledge of Figma, Adobe Photoshop and Illustrator, with experience in wireframing and prototyping.
             </p>
             <div className="flex gap-4 mt-4">
               <button className="bg-[var(--primary)] text-gray-100 font-semibold tracking-wider py-3 px-6 rounded-md shadow-md hover:opacity-80 transition-all duration-300 hover:scale-105 hover:shadow-lg" >
