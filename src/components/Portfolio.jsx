@@ -7,82 +7,98 @@ const Portfolio = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const projects = [
-    {
-  id: 4,
-  slug: "COS fashion (H&M)",
-  title: "Senior Full Stack Developer (Next.js)",
-  images: [
-  "/img/basket.png",
-  "/img/wishlist.png",
-  "/img/pdpSizeSelector.png",
-  "/img/image.png",
-  ],
-  link: "https://www.cos.com/en-gb",
-  tech: ["React", "Next.js", "TypeScript", "JavaScript", "Redux Toolkit", "GraphQL", "REST APIs", "Node.js", "Socket.IO", "WebSockets", "MongoDB", "SCSS", "Jest", "React Testing Library", "OpenAI", "Vercel AI SDK"],
-  description:
-    "Worked on COS Fashion's large B2C platform for mobile and desktop, part of H&M Group. Built features with React, Next.js and TypeScript, integrating REST and GraphQL APIs and managing state with Redux Toolkit. Built real-time low-stock alerts with Socket.IO and WebSockets, pushed from the server to logged-in users on their wishlist page, and an AI-powered search tool with OpenAI and Vercel for H&M warehouse staff to search stock and colour availability by product category. Cut page load time by about 30%, raised the Lighthouse Performance score from 62 to 88 and reduced JavaScript bundle size by 20–40%."
-},
-{
-  id: 0,
-  slug: "edf energy produce electricity",
-  title: "Senior Full Stack Developer",
-  images: [
-    "/img/edfEnergy.jpg",
-    "/img/edfEnergy1.jpg",
-    "/img/edfEnergy.jpg"
-  ],
-  tech: ["React", "TypeScript", "JavaScript", "Node.js", "Python", "AG Grid", "styled-components", "Google Charts", "AWS Lambda", "PostgreSQL", "SQL"],
-  description:
-    "Worked on EDF Energy's nuclear waste management system, which follows each package from collection and processing to packaging, consignment and secure storage. Built a waste tracking system with QR code scanning and label printing on mobile, tablet and desktop to replace a manual, error-prone process used by plant engineers, and owned it from requirements through testing and release. The platform supports environmentally safe disposal, regulatory compliance and operational efficiency. Also worked on upgrading a website from React 15 to React 19 and a Node.js REST API on AWS Lambda from Node.js 16 to Node.js 22, and developed a daily consumption and 15-day demand report for 17 generation sites."
-},
-{
-  id: 1,
-  slug: "Sky UK’s broadband product platform",
-  title: "Senior Frontend Developer",
-  images: [
-    "/img/dubedoostab.jpg",
-    "/img/dubedoos.jpg",
-    "/img/hero (1).png",
-    "/img/hero (2).png"
-  ],
-  link: "https://www.sky.com/broadband",
-  tech: ["ReactJS 18", "TypeScript", "JavaScript", "Redux (Thunk, Saga)", "Jest", "Cypress", "GraphQL", "Content Stack CMS", "Optimizely", "React Testing Library", "Octopus"],
-  description:
-    "Worked on Sky UK's broadband product platform, building responsive, customer-facing web pages (Glass, WiFi and TV) that supported broadband sales and personalised journeys. The platform integrated with ContentStack CMS and Optimizely so marketing teams could run A/B tests and launch new campaigns quickly. Also worked as a business analyst alongside development, gathering and analysing requirements with stakeholders. The platform used a microfrontend architecture, so modules could be developed, tested and deployed independently."
-},
-{
-  id: 2,
-  slug: "Marina Bay Sands Resourt",
-  title: "Senior Software Developer",
-  images: [
-    "/img/momentum.jpg",
-    "/img/hero (4).png",
-  ],
-  link: "https://www.marinabaysands.com/restaurants/rooftop-dining.html",
-  tech: ["React", "Redux", "TypeScript", "JavaScript", "JWT", "Jenkins"],
-  description:
-    "Built customer-facing loyalty and rewards applications for Marina Bay Sands' Sands LifeStyle membership, where members earn and redeem Resort Dollars across outlets in the resort. Developed an event-driven loyalty engine powering real-time reward distribution across casino kiosks, and reduced DOM re-renders by about 25% by optimising components and refactoring the front end.",
-  // blog: {
-  //   title: "From Zero to Full-Stack: Building Momentum with Appwrite",
-  //   content: "A comprehensive guide to building a full-stack fitness tracking application...",
-  //   date: "2024-02-20",
-  //   readTime: "8 min read"
-  // }
-},
-{
-  id: 3,
-  title: "Associate Consultant",
-  images: [
-    "/img/multifamily.png",
-    "/img/multifamily1.png",
-    "/img/multifamily1.png"
-  ],
-  link: "https://www.verkada.com/uk/solutions/multifamily/#overview",
-  tech: ["C#", "ASP.NET MVC", "Web API", "SQL Server"],
-  description:
-    "Worked on multi-family projects focused on security and operational management for residential and commercial buildings. The system handles camera recording, guest entry through entry passes, face detection and ID card scanning, and logs entry and exit times accurately. It serves as a complete security and management tool for apartment complexes and corporate facilities."
-}
-  ];
+  {
+    id: 4,
+    slug: "COS fashion (H&M)",
+    title: "Senior Full Stack Developer (Next.js)",
+    images: [
+      "/img/basket.png",
+      "/img/wishlist.png",
+      "/img/pdpSizeSelector.png",
+      "/img/image.png",
+    ],
+    link: "https://www.cos.com/en-gb",
+    tech: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Redux Toolkit",
+      "GraphQL",
+      "REST APIs",
+      "WebSockets",
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "Jest",
+      "React Testing Library",
+      "OpenAI",
+      "Vercel AI SDK",
+      "CI/CD",
+    ],
+    description:
+      "Built and maintained COS Fashion's large B2C platform (H&M Group) for mobile and desktop, plus an AI search tool for H&M warehouse staff. Built features with React, Next.js and TypeScript, integrating REST and GraphQL APIs and managing state with Redux Toolkit. Built a real-time stock notification feature with WebSockets that pushes alerts to the user's wishlist page when items run low, and an AI-powered search tool with OpenAI and Vercel that lets warehouse staff search stock and colour availability by product category. Cut page load time by about 30%, raised the Lighthouse Performance score from 62 to 88 and reduced JavaScript bundle size by 20–40%. Wrote Jest and React Testing Library tests and took part in code reviews so changes shipped safely through CI/CD.",
+  },
+  {
+    id: 0,
+    slug: "edf energy produce electricity",
+    title: "Senior Full Stack Developer",
+    images: [
+      "/img/edfEnergy.jpg",
+      "/img/edfEnergy1.jpg",
+      "/img/edfEnergy.jpg",
+    ],
+    tech: [
+      "React",
+      "JavaScript",
+      "styled-components",
+      "Google Charts",
+      "QR code scanning",
+      "Responsive UI",
+    ],
+    description:
+      "Built a nuclear waste tracking system for EDF Energy (Nuclear) to replace a manual, error-prone process used by plant engineers. It has a QR code scanner UI that runs on mobile, tablet and desktop and maps every package step by step, from pick to secure storage. Built the scan and label print features, so one printed label carries all the details of a package, and owned the work from requirements through testing and release. Also upgraded a website from React 15 to React 19, and upgraded and developed a daily consumption and 15-day demand report for 17 generation sites, with a React front end using styled-components and Google Charts.",
+  },
+  {
+    id: 1,
+    slug: "Sky UK's broadband product platform",
+    title: "Senior Frontend Developer",
+    images: [
+      "/img/dubedoostab.jpg",
+      "/img/dubedoos.jpg",
+      "/img/hero (1).png",
+      "/img/hero (2).png",
+    ],
+    link: "https://www.sky.com/broadband",
+    tech: ["React", "TypeScript", "JavaScript", "REST APIs", "GraphQL"],
+    description:
+      "Built components for Sky's customer-facing broadband website (Glass, WiFi and TV pages) with React, TypeScript and JavaScript, consuming REST and GraphQL APIs. Optimised performance and fixed rendering issues on these pages. Also worked as a business analyst alongside development, gathering and analysing requirements with stakeholders.",
+  },
+  {
+    id: 2,
+    slug: "Marina Bay Sands Resort",
+    title: "Senior Software Developer",
+    images: ["/img/momentum.jpg", "/img/hero (4).png"],
+    link: "https://www.marinabaysands.com/restaurants/rooftop-dining.html",
+    tech: ["React", "Redux", "TypeScript", "Performance optimisation"],
+    description:
+      "Built customer-facing B2C loyalty and rewards applications for Marina Bay Sands with React, Redux and TypeScript, used by thousands of customers every day. Reduced DOM re-renders by about 25% by optimising components and refactoring the front end.",
+  },
+  {
+    id: 3,
+    slug: "GlobalLogic building security and automation",
+    title: "Software Engineer",
+    images: [
+      "/img/multifamily.png",
+      "/img/multifamily1.png",
+      "/img/multifamily1.png",
+    ],
+    link: "https://www.verkada.com/uk/solutions/multifamily/#overview",
+    tech: [],
+    description:
+      "Developed web applications and backend services for a security and automation tool for residential and commercial buildings, at GlobalLogic in India.",
+  },
+];
 
   useEffect(() => {
     const handleKeyDown = (e) => {
