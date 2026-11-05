@@ -5,7 +5,7 @@ import SectionHeading from "./SectionHeading";
 const services = [
   {
     icon: "fa-code",
-    title: "React & TypeScript Engineering",
+    title: "React, NextJS, TypeScript, NodeJS & Python Engineering",
     desc: "Responsive, accessible interfaces built with React, Next.js and TypeScript for mobile, tablet and desktop.",
   },
   {
