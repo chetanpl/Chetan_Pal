@@ -76,7 +76,7 @@ const skills = [
         <div className="text-xl mb-12" data-aos="fade-up">
           <h1 className={`text-2xl font-bold mb-2 ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}>Education & Skills</h1>
           <p className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}>
-            For more than 5 year, have been accomplishing enough with modern Web Development, (React, HTML, CSS, JavaScript, React, Tailwind, MySql, Express, nodeJS, MySQL new generation web and app programming language.
+            For more than 7+ year, have been accomplishing enough with modern Web Development, (React, Next HTML, CSS, JavaScript, Tailwind, MySql, Express, nodeJS, MySQL new generation web and app programming language.
           </p>
         </div>
 
